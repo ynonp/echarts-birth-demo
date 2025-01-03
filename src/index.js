@@ -1,4 +1,4 @@
-import data from './births.json';
+import data from './births.json' with { type: "json" };
 import _ from 'https://cdn.jsdelivr.net/npm/lodash@4.17.21/+esm'
 
 window.data = data;
